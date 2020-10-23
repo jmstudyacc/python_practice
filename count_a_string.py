@@ -5,11 +5,17 @@
 
 # Example Input: 'Hello World'
 
+
+"""
 word = str(input())
 split_word = word.split(' ')
 
 print(len(split_word))
 
-"""
 print(len(input().split()))
 """
+
+
+def word_count(s):
+  w = s.count(" ")+1
+  return w
