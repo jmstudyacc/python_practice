@@ -19,9 +19,17 @@ Output must be:
 
 heat
 """
-loop = True
+word_list = []
+num_entries = int(input())
 
-synonyms = {}
+for i in range(0, num_entries):
+    user_word = input().split()         # Splits the input by " " and makes it a list
+    word_list.append(user_word)         # print the output
 
-while loop:
-    word = input()
+dict_words = dict(word_list)
+
+synonym_lookup = input()
+
+for key in dict_words:                  # loop over the keys in the dictionary        
+    if key == synonym_lookup:           # if you find a key matching the input
+        print(dict_words[key])          # print the value from the dictionary matching the value of key in the loop
