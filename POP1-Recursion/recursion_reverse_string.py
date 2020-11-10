@@ -18,7 +18,21 @@ def rev_string(s):
     if len(s) == 0:
         return s
 
-
-
+    else:
+        return rev_string(s[1:]) + s[0]
+        # return s[-1] + rev_string(s[:-1])           # rev_string(s[:-1]) removes 1 value on each recursion and assigns to s - do s[:-2] to see the difference
+                                                    # the function returns the value at s[-1]
 
 print(rev_string("abcb"))
+
+"""
+a = input()
+
+if a < 1:
+    print(a)
+
+else:
+
+print(a[::-1])
+
+"""
