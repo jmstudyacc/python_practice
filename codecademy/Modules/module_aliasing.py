@@ -15,7 +15,7 @@ Let’s combine your knowledge of the random library with another fun library ca
 
 """
 
-import codecademylib3_seaborn
+#import codecademylib3_seaborn
 from matplotlib import pyplot as plt     
 import random
 
