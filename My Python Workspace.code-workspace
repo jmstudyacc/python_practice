@@ -1,11 +1,28 @@
 {
-	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "..\\Second Workspace Folder"
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "name": "Cisco_DevNet",
+      "path": "../Cisco_DevNet"
+    },
+    {
+      "name": "swift-studies",
+      "path": "../../swift_repos/swift-studies"
+    },
+    {
+      "name": "fullstack_ca_course",
+      "path": "../../java_repos/fullstack_ca_course"
+    },
+    {
+      "name": "node-express-course",
+      "path": "../../java_repos/node-express-course"
+    },
+    {
+      "name": "POP1-CW",
+      "path": "../POP1-CW"
+    }
+  ],
+  "settings": {}
 }
