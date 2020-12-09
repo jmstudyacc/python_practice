@@ -1,4 +1,3 @@
-
 class Counter:
     # provide __init__ to act as the constructor
     def __init__(self, my_id):
@@ -29,35 +28,35 @@ class Counter:
         return items
 
 
-    def remove(self, item_name, amount = 1):
+    def reset(self):    def remove(self, item_name, amount):
         # method needs to remove an entry, requirements are hard to understand
         # test the removal first, translate the wording later :(
-
         items = self._items
-        item_list = list(self._items.items())
         remove_item = item_name.title()
-        remove_amount = amount
-        remove_list = {remove_item: remove_amount}
-
-        # perhaps the best idea is to change dict to list
-        # remove the price_of_unit from the list
-        # return list to dictionary
-        # compare k:v pairs?
-
         # check if the word is present in the collection
         if remove_item in items:
-            items.pop(remove_item)
-            print(f'**** {remove_item} WAS REMOVED FROM THIS COLLECTION ****')
+            # 2 checks here, if amount passed is greater than amount in dict
+            stored_amount = items.get(remove_item)[0]
+            stored_price = items.get(remove_item)[1]
+            #print(stored_price)
+            if stored_amount <= amount:
+                items.pop(remove_item)
+                #print(f'**** {remove_item} WAS REMOVED FROM THIS COLLECTION ****')
 
+            else:
+                r_updated_amount = stored_amount - amount
+                r_updated_item = {item_name.title(): [r_updated_amount, float("%.2f" % stored_price)]}
+                items.update(r_updated_item)
+                #print(f'**** {remove_item} HAD ITS QUANTITY CHANGED BY: {amount} ****')
         else:
-            print(f'**** {remove_item} IS MISSING FROM THIS COLLECTION ****')
+            # Do nothing
+            #print(f'**** {remove_item} IS MISSING FROM THIS COLLECTION ****')
+            pass
 
-    def reset(self):
         # erase all the previous information by reassigning as empty dict
         self._items.clear()
 
-
-    def get_total(self):    # provides the running total of entries
+    def get_total(self):  # provides the running total of entries
         total_value = 0
         # can't index easily with dictionary so make it into a list to index
         item_list = list(self._items.items())
@@ -68,7 +67,6 @@ class Counter:
             total_value += total_item_price
 
         return round(total_value, 2)
-
 
     def status(self):
         total_units = 0
@@ -92,7 +90,11 @@ a.add("Ice Cream", 2, 3.4)
 a.add('Spaghetti', 3, 1.8)
 a.add('Cake', 1, 4.5)
 print(a.status())
-print(a.get_total())
+print(a._items)
+a.remove('cake', 1)
+a.remove('ice cream', 4)
+print(a._items)
+print(a.status())
 '''
 a.add("bananas", 10, 0.8)
 a.add('turkey', 1, 9.63)
