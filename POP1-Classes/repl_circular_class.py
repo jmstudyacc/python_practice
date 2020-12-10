@@ -13,48 +13,44 @@ class Sector:
         # (it is optional to solve this problem without this assumption; see above)
 
     def intersect(self, other):
-        pass
+        inter_sector = Sector()
+        inter_sector.fr = max(self.fr, other.fr)
+        inter_sector.to = min(self.to, other.to)
+        inter_sector.rad = min(self.rad, other.rad)
+
+        return f"{inter_sector.fr} {inter_sector.to} {inter_sector.rad}"
         # implement this
         # returns sector (i.e., object of class Sector) that is intersection
         # of this and other sector
         # you may assume that the two sectors have nonempty intersection
 
     def is_empty(self):
-        pass
+        # why do I need to search for geometry formulae?
+        # why is this part of programming/testing classes?!
+        # Sector Area = r^2 * angle / 2
+        # s1 = 40^2 * 20 / 2 ?
+
+        total_angle = self.to - self.fr
+        sector_area = (self.rad ** 2 * total_angle) / 2
+
+        if sector_area != 0:
+            return False
+        else:
+            return True
+
         # implement this
         # returns True if the sector has empty area, otherwise False
 
     def __eq__(self, other):
-        # implement this
-        # returns True this sector is the same as the other, otherwise False
         if self.fr == other.fr and self.to == other.to and self.rad == other.rad:
             return True
         else:
             return False
 
+        # implement this
+        # returns True this sector is the same as the other, otherwise False
+
     def __str__(self):
-        return f"{self.fr} {self.to} {self.rad}"
         # implement this
         # returns string "F T R" where F is from angle, T is to, and R is radius
-
-
-s1 = Sector()
-s1.fr = 0
-s1.to = 20
-s1.rad = 40
-str(s1)
-s1.rotate(50)
-print(str(s1))
-s2 = Sector()
-s2.fr = 60
-s2.to = 100
-s2.rad = 30
-print(str(s2))
-
-# s3 = s1.intersect(s2)
-# Test4 checks str(s3)=="60 70 30"
-
-new_sect = Sector()
-new_sect.fr = max(self.fr, other.fr)
-new_sect.to = min(self.to, other.to)
-new_sect.rad = min(self.rad, other.rad)
+        return f"{self.fr} {self.to} {self.rad}"
