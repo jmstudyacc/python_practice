@@ -1,10 +1,9 @@
-
-#M =[    [0, 3, 2, 4], 
+# M =[    [0, 3, 2, 4],
 #        [2, 3, 5, 5],  
 #        [5, 1, 2, 3]
 #    ]
 
-#1
+# 1
 """
 # Finding MAX values in the lists
 #R1_max = max(M[0])
@@ -30,7 +29,7 @@
 #print("Last value of last row:", M[-1][-1])
 """
 
-#2
+# 2
 """
 # Finding a specific column
 column = []
@@ -42,7 +41,7 @@ print("\n3rd column is:", column)
 
 """
 
-#3
+# 3
 """
 # Printing a Table out from the Matrix
 for i in range(len(M)):
@@ -55,8 +54,8 @@ for i in range(len(M)):
 """
 M = [[11, 12, 13, 14], [21, 22, 23, 24], [31, 32, 33, 34]]
 
-def swap_columns(M, m, n, i, j):
 
+def swap_columns(M, m, n, i, j):
     result = []
 
     for z in range(m):
@@ -70,7 +69,7 @@ def swap_columns(M, m, n, i, j):
             result[i][j] = M[i][j]
 
     for l in result:
-        l[i], l[j] = l[j], l[i]        
+        l[i], l[j] = l[j], l[i]
         print(l)
 
 
