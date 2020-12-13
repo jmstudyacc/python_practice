@@ -1,3 +1,4 @@
+"""
 class Node:
     def __init__(self, init_data):
         self.data = init_data
@@ -37,7 +38,7 @@ class Stack:
             return False
 
 
-"""      
+      
 s = Stack()
 s.push(1)
 s.push(2)
@@ -49,29 +50,31 @@ s.pop()
 s.is_empty()==True
 """
 
-"""
-Model Answer:
--------------
+
+# Model Answer:
+# -------------
+
+
 class Node:
-  def __init__(self, init_data):
-    self.data = init_data
-    self.next = None
+    def __init__(self, init_data):
+        self.data = init_data
+        self.next = None
+
 
 class Stack:
-  def __init__(self):
-    self.top = None    #top stores a Node
-  
-  def push(self, x):
-    new_node = Node(x)
-    new_node.next = self.top
-    self.top = new_node
-  
-  def pop(self):
-    self.top = self.top.next
-  
-  def peek(self):
-    return self.top.data
-    
-  def is_empty(self):
-    return self.top == None
-"""
+    def __init__(self):
+        self.top = None  # top stores a Node
+
+    def push(self, x):
+        new_node = Node(x)
+        new_node.next = self.top
+        self.top = new_node
+
+    def pop(self):
+        self.top = self.top.next
+
+    def peek(self):
+        return self.top.data
+
+    def is_empty(self):
+        return self.top == None
