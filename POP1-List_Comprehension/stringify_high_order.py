@@ -43,21 +43,32 @@ F = stringify(f)
 """
 
 
+# code starts by loading both f(x) and stringify(f) as objects
 def f(x):
     # change lower case to upper
-    return chr(ord(x) - 32)
+    return chr(ord(x) - 32)     # x referenced in this function is the value passed by the loop below
+    # the letter returned after running this function is the capitalised version of the original letter input
 
 
+# runs stringify(f) function and value
 def stringify(f):
-    # provide implementation
+    # loads new_string() function with 's' as value - function: new_string(s) [parent=f1]
     def new_string(s):
+        # like setting a counter to 0 and then iterating, this sets the string var to empty which will be added to
         string = ""
+        # looping with x over the value in the variable s (see below for value)
         for x in s:
-            string += f(x)
+            # add the result of function f() against iterated value 'x'
+            string += f(x)  # x is then run against f(x) which is a function to capitalise the letter
+
+        # the string variable will contain the capitalised version of 'x' and continue to loop until at end of 's'
         return string
+        # when loop is completed the new_string() function returns the value of 'string'
 
     return new_string
 
 
+# F is assigned to the value of the function stringify(f) calling the f(x)
 F = stringify(f)
+# calling the function stringify(f) with a string value of "apple" - this maps to the value needed in new_string(s)
 print(F("apple"))
