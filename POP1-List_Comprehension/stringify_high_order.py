@@ -43,13 +43,21 @@ F = stringify(f)
 """
 
 
+def f(x):
+    # change lower case to upper
+    return chr(ord(x) - 32)
+
+
 def stringify(f):
     # provide implementation
-    def f(x):
-        # change lower case to upper
-        return chr(ord(x) - 32)
-    return f
+    def new_string(s):
+        string = ""
+        for x in s:
+            string += f(x)
+        return string
+
+    return new_string
+
 
 F = stringify(f)
 print(F("apple"))
-
