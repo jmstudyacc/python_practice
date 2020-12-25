@@ -7,9 +7,16 @@ from random import randint
 # CLUMSY NUMBERING TO PUT THE TABLE IN
 # NEED TO ADD 2 TO USER GUESSES FOR X & Y DUE TO TOP & SIDE OF TABLE
 
-# creating a dictionary to contain the ships
-ship_fleet = {}
+# Dictionary idea abandoned
+
+# TO DO:
+# - Error Handling for User Inputs
+# - Ship placement error logic, not currently working?
+# - Visualisation should change a ship to an 'X' if a HIT or a 'O' if miss (THIS WILL BE HARD WITH STRINGS)
+
+# create list to hold the fleet
 ship_list = []
+
 
 def submarine_place():
     while True:
@@ -34,7 +41,7 @@ def submarine_place():
                 print("NOT SUITABLE TO PLACE")
                 continue
 
-    return [str(coord1)]
+    return [coord1]
 
 
 def destroyer_place():
@@ -50,7 +57,7 @@ def destroyer_place():
                 game_board[rand_x + 1][rand_y] = 'D'
                 break
 
-    return [str(coord1), str(coord2)]
+    return [coord1, coord2]
 
 
 def cruiser_place():
@@ -69,7 +76,7 @@ def cruiser_place():
             game_board[rand_x][rand_y + 2] = 'C'
             break
 
-    return str(coord1), str(coord2), str(coord3)
+    return [coord1, coord2, coord3]
 
 
 def battleship_place():
@@ -89,7 +96,7 @@ def battleship_place():
             game_board[rand_x + 3][rand_y] = 'B'
             break
 
-    return [str(coord1), str(coord2), str(coord3), str(coord4)]
+    return [coord1, coord2, coord3, coord4]
 
 
 def blank_board(m, n):
@@ -144,20 +151,17 @@ for i in range(1, 4):
 
 show_grid(game_board)
 
-print("--------------")
-print("--------------")
-
 # check to see if the dictionary was successfully populated
-for item in ship_fleet:
-    print(item, ship_fleet.get(item))   # print the item currently iterated & get the value for the item
+#for item in ship_fleet:
+#    print(item, ship_fleet.get(item))   # print the item currently iterated & get the value for the item
 
 print(ship_list)
 
 z = 1
 while z > 0:
-    user_x = input()
-    user_y = input()
-    shot = (f'({user_x}, {user_y})')
+    user_x = int(input()) + 2
+    user_y = int(input()) + 2
+    shot = (user_x, user_y)
 
     # DEBUG
     #print(shot)
@@ -174,52 +178,23 @@ while z > 0:
         for i in range(len(ship_list)):
             if shot in ship_list[i]:
                 ship_list[i].remove(shot)
+                game_board[user_x][user_y] = 'X'
 
     # if val is False then report a miss
     else:
         print("THAT'S A MISS...")
-
-        """
-    if shot in ship_list:
-        print("HIT")
-        ship_list.remove(shot)
-
-    elif shot not in ship_list:
-        for i in range(len(ship_list)):
-            if shot in ship_list[i]:
-                print("HIT!!!")
-                ship_list[i].remove(shot)
-            else:
-                print("MISS")
-
-    if shot in list(ship_list):
-        print("HIT!!!")
-        ship_list.remove(shot)
-        if not any(ship_list):
-            break
-    else: """
+        game_board[user_x][user_y] = 'O'
 
     if not any(ship_list):
         break
 
     print(ship_list)
+    show_grid(game_board)
     z += 1
 
-
+show_grid(game_board)
 print("YOU SUCCESSFULLY DESTROYED ALL THE SHIPS")
 
-"""    val = shot in [coord for ship in ship_list for coord in ship]
-    if val:
-        print(shot)
-        print("THAT'S A HIT!!!")
-        ship_list.remove(shot)
-    else:
-        print("THAT'S A MISS...")"""
 # PROBLEM:
-#           list.remove(shot) will not remove a value within a sub-list of the larger list
-
-# dictionary
-# for i in range(3):
-#   dict['ship'+str(i)] = 'value'
-
+#   Can now remove entries, but this was by putting them in as STRINGS - NOT IDEAL
 
