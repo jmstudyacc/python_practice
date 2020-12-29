@@ -350,18 +350,18 @@ def place_ship_at(row, column, horizontal, length):  # , horizontal, length, fle
 
 
 def randomly_place_ships():
-    fleet_dict['ship1'] = submarine_place()
+    fleet_dict['ship10'] = battleship_place()
 
-    for i in range(2, 5):
-        fleet_dict['ship' + str(i)] = submarine_place()
-
-    for i in range(5, 8):
-        fleet_dict['ship' + str(i)] = destroyer_place()
-
-    for i in range(8, 10):
+    for i in range(10, 7, -1):
         fleet_dict['ship' + str(i)] = cruiser_place()
 
-    #fleet_dict['ship10'] = battleship_place()
+    for i in range(7, 4, -1):
+        fleet_dict['ship' + str(i)] = destroyer_place()
+
+    for i in range(4, 1, -1):
+        fleet_dict['ship' + str(i)] = submarine_place()
+
+    fleet_dict['ship1'] = submarine_place()
 
     return list(fleet_dict)
 
