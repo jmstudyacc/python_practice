@@ -136,3 +136,5 @@ for sym in s:
 if stk.is_empty(): print("True")
 else: print("False")
 """
+
+for each letter in s - implement the function of F(s)
