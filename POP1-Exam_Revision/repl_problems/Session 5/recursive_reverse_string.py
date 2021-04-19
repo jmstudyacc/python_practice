@@ -6,7 +6,7 @@ def recursive_reverse(s):
     else:
         return recursive_reverse(s[1:]) + s[0]
 
-ß
+
 assert recursive_reverse("abcb") == "bcba"
 assert recursive_reverse("") == ""
 assert recursive_reverse("a") == "a"
