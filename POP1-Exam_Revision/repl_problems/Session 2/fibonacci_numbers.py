@@ -1,9 +1,11 @@
 def memoize(f):
     memo = {}
+
     def helper(x):
         if x not in memo:
             memo[x] = f(x)
         return memo[x]
+
     return helper
 
 
@@ -14,7 +16,7 @@ def fib_nums(n):
     elif n == 1:
         return 1
     else:
-        return fib_nums(n-1) + fib_nums(n-2)
+        return fib_nums(n - 1) + fib_nums(n - 2)
 
 
 answer = fib_nums(int(input()))
