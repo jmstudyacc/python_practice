@@ -62,6 +62,7 @@ class Stack:
 
 
 s1 = Stack()
+s_print = s1.p_stack(s1.peek())
 s1.push(1)
 s1.push(2)
 s1.push(3)
@@ -69,7 +70,8 @@ s1.push(4)
 s1.push(5)
 s1.push(5)
 s1.push(6)
-print(s1.p_stack(s1.peek()))
+s_print = s1.p_stack(s1.peek())
+print(s_print)
 s1.pop()
 print(s1.p_stack(s1.peek()))
 s1.pop()

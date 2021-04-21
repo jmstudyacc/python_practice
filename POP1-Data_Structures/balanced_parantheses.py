@@ -1,6 +1,6 @@
 """
 Attempt this problem after you solved the Linked Lists and Stacks
-problem (Session 11 Problem 2).
+problem (session_11 Problem 2).
 This is because you can use your implementation of Stack to solve
 this problem.
 
@@ -11,7 +11,7 @@ print True if the parentheses of the string are balanced,
 otherwise print False.
 For the examples of balanced/unbalanced strings and
 the algorithm to solve this problem using Stack,
-see Session 11 lecture slides.
+see session_11 lecture slides.
 
 For example, on input:
 ([{}<>])
@@ -136,5 +136,3 @@ for sym in s:
 if stk.is_empty(): print("True")
 else: print("False")
 """
-
-for each letter in s - implement the function of F(s)
