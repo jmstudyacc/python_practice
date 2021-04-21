@@ -52,7 +52,7 @@ def f(x):
 
 # runs stringify(f) function and value
 def stringify(f):
-    # loads new_string() function with 's' as value - function: new_string(s) [parent=f1]
+    # loads new_string() function with 's' as value - function: new_string(s) parent: stringify(f)
     def new_string(s):
         # like setting a counter to 0 and then iterating, this sets the string var to empty which will be added to
         string = ""

@@ -27,11 +27,14 @@ Output:
 22
 33
 """
+
+
 # creating the function and not using the inbuilt map function
 def binary_map(func_of_2, col1, col2):
     # run the function against pair[1] & pair[0]
-    (func_of_2(pair[1],pair[0]) for pair in zip(col1, col2)) # the for loop here and zip enable the indexing of 'pair'
+    return (func_of_2(pair[1], pair[0]) for pair in zip(col1, col2))
+    # the for loop here and zip enable the indexing of 'pair'
 
 
 def binary_map(func_of_2, col1, col2):
-  return map(func_of_2, col1, col2)  #insert expression here
+    return map(func_of_2, col1, col2)  # insert expression here
