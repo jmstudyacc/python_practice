@@ -35,13 +35,55 @@ class Stack:
     def is_empty(self):
         return self.top is None
 
+    # function to print the stack contents - takes the 'top' node as the parameter
+    def p_stack(self, top):
+
+        # base condition to check if the stack is empty
+        if top is None:
+            return None
+
+        elif top.next is None:
+            # if the next node field for the 'top' node is None you have reached the end of the recursion
+            # pass the value of the 'top' node for return
+            return [top.data]
+
+        else:
+            # stack is assigned the value of top node's data
+            stack = [top.data]
+
+            # s_next is set to use the next node assigned to the current 'top' node
+            s_next = top.next
+
+            # print the contents of the stack
+            print(stack, end=" ")
+
+            # recursively call the method until base condition is met
+            return self.p_stack(s_next)
+
 
 s1 = Stack()
 s1.push(1)
 s1.push(2)
-print(s1.peek())
+s1.push(3)
+s1.push(4)
+s1.push(5)
+s1.push(5)
+s1.push(6)
+print(s1.p_stack(s1.peek()))
+s1.pop()
+print(s1.p_stack(s1.peek()))
+s1.pop()
+print(s1.p_stack(s1.peek()))
+s1.pop()
+s1.pop()
+s1.pop()
+s1.pop()
+print(s1.p_stack(s1.peek()))
+s1.pop()
+print(s1.p_stack(s1.peek()))
+"""print(s1.peek())
 s1.pop()
 print(s1.peek())
 print(s1.is_empty())
 s1.pop()
-print(s1.is_empty())
+print(s1.is_empty())"""

@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b3bf01f-60d1-4e78-bcf3-5a7ab0b3eef7" name="Default Changelist" comment="class based exercises">
-      <change afterPath="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 10/higher_order_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 10/list_combined_pairs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 10/map_implementation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 10/squared_mapping.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 11/linked_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 9/bank_account_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 9/bank_account_inheritance.py" afterDir="false" />
+    <list default="true" id="3b3bf01f-60d1-4e78-bcf3-5a7ab0b3eef7" name="Default Changelist" comment="sessions 8 - 11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POP1-Data_Structures/linked_lists_stacks.py" beforeDir="false" afterPath="$PROJECT_DIR$/POP1-Data_Structures/linked_lists_stacks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 8/circular_sector_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 8/circular_sector_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POP1-List_Comprehension/map_comprehension.py" beforeDir="false" afterPath="$PROJECT_DIR$/POP1-List_Comprehension/map_comprehension.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POP1-List_Comprehension/stringify_high_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/POP1-List_Comprehension/stringify_high_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 11/linked_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 11/linked_list.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618950485177</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="sessions 8 - 11">
+      <created>1619022707583</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619022707583</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +220,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="adding repl.it problems" />
     <MESSAGE value="class based exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="class based exercises" />
+    <MESSAGE value="sessions 8 - 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="sessions 8 - 11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -252,7 +250,7 @@
     <SUITE FILE_PATH="coverage/python_practice$advanced_counter_class.coverage" NAME="advanced_counter_class Coverage Results" MODIFIED="1618944493335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 8" />
     <SUITE FILE_PATH="coverage/python_practice$num_distinct_words.coverage" NAME="num_distinct_words Coverage Results" MODIFIED="1618839321537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 3" />
     <SUITE FILE_PATH="coverage/python_practice$pytest_for_test_battleships_test_hit1.coverage" NAME="pytest for test_battleships.test_hit1 Coverage Results" MODIFIED="1609637490305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../POP1-CW/DCS-POP1-2020-21-jmstudyacc" />
-    <SUITE FILE_PATH="coverage/python_practice$linked_list.coverage" NAME="linked_list Coverage Results" MODIFIED="1619022521758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 11" />
+    <SUITE FILE_PATH="coverage/python_practice$linked_list.coverage" NAME="linked_list Coverage Results" MODIFIED="1619025593321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 11" />
     <SUITE FILE_PATH="coverage/python_practice$recursive_exponentiation.coverage" NAME="recursive_exponentiation Coverage Results" MODIFIED="1618846972361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 5" />
     <SUITE FILE_PATH="coverage/python_practice$pytest_for_test_battleships_test_is_sunk1.coverage" NAME="pytest for test_battleships.test_is_sunk1 Coverage Results" MODIFIED="1609637310562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../POP1-CW/DCS-POP1-2020-21-jmstudyacc" />
     <SUITE FILE_PATH="coverage/python_practice$pytest_for_test_battleships_test_ok_to_place_ship_at1.coverage" NAME="pytest for test_battleships.test_ok_to_place_ship_at1 Coverage Results" MODIFIED="1609637475654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../POP1-CW/DCS-POP1-2020-21-jmstudyacc" />
