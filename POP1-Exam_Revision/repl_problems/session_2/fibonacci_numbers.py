@@ -19,5 +19,9 @@ def fib_nums(n):
         return fib_nums(n - 1) + fib_nums(n - 2)
 
 
-answer = fib_nums(int(input()))
-print(answer)
+print("Fibonacci Sequence:")
+for i in range(1):
+    print(f"{i}: {fib_nums(i)}")
+
+#answer = fib_nums(int(input()))
+#print(answer)

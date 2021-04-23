@@ -7,5 +7,5 @@ def factorial(n):
         return total
 
 
-a = 4
+a = 3
 print(factorial(a))
