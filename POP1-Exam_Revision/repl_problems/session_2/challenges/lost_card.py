@@ -10,7 +10,7 @@ def lost_card():
         card = int(input())
         hand.append(card)
 
-    # loop over the list and check if i is missing - i will iterate from 1 to n + 1
+    # loop over the list and check if i is missing - i will iterate from 1 to n + 1 and check if i not in hand
     for i in range(1, n+1):
         if i not in hand:
             return i
