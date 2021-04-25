@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b3bf01f-60d1-4e78-bcf3-5a7ab0b3eef7" name="Default Changelist" comment="finalising session 2 challenges">
-      <change afterPath="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_3/challenges/delete_third_char.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_3/challenges/greater_than_neighbour.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_3/challenges/greater_than_previous.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_3/challenges/queens.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_3/challenges/replace_within_fragment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_3/challenges/slices.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_3/challenges/unique_elements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_4/challenges/multiplication_of_matrices.py" afterDir="false" />
+    <list default="true" id="3b3bf01f-60d1-4e78-bcf3-5a7ab0b3eef7" name="Default Changelist" comment="finishing session 3 challenges">
+      <change afterPath="$PROJECT_DIR$/Hyperskill/strings_enumerate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_2/challenges/lost_card.py" beforeDir="false" afterPath="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_2/challenges/lost_card.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_4/challenges/multiplication_of_matrices.py" beforeDir="false" afterPath="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_4/challenges/multiplication_of_matrices.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +55,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -205,7 +200,10 @@
       <updated>1618766134896</updated>
       <workItem from="1618766142314" duration="7853000" />
       <workItem from="1619122006604" duration="11315000" />
-      <workItem from="1619190905932" duration="8633000" />
+      <workItem from="1619190905932" duration="8660000" />
+      <workItem from="1619255414585" duration="57000" />
+      <workItem from="1619385299652" duration="54000" />
+      <workItem from="1619387931760" duration="122000" />
     </task>
     <task id="LOCAL-00001" summary="class based exercises">
       <created>1618950485177</created>
@@ -256,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619171632691</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="finishing session 3 challenges">
+      <created>1619201791808</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619201791809</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +289,8 @@
     <MESSAGE value="reformat" />
     <MESSAGE value="session 1 &amp; 2 challenges" />
     <MESSAGE value="finalising session 2 challenges" />
-    <option name="LAST_COMMIT_MESSAGE" value="finalising session 2 challenges" />
+    <MESSAGE value="finishing session 3 challenges" />
+    <option name="LAST_COMMIT_MESSAGE" value="finishing session 3 challenges" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
