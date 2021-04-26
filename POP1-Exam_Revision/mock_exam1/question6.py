@@ -12,10 +12,6 @@ def shortest_atom(original_string):
     return current_candidate if j == 0 else original_string
 
 
-print(shortest_atom("ababab"))
-print(shortest_atom("abcabc"))
-print(shortest_atom("abcab"))
-
 assert shortest_atom("ababab") == "ab"  # must be True
 assert shortest_atom("abcabc") == "abc"  # must be True
 assert shortest_atom("abcab") == "abcab"  # must be True

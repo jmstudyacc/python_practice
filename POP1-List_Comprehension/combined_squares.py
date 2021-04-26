@@ -24,7 +24,7 @@ Output:
 X = [1, 2, 3]
 Y = [5, 6, 7]
 
-it_squared_mapping = [((x * x), y) for x,y in zip(X, Y)] #insert a zip expression here
+it_squared_mapping = [((x * x), y) for x, y in zip(X, Y)]  # insert a zip expression here
 
 # model answer = zip((x**2 for x in X), Y)
 

@@ -27,6 +27,6 @@ X = [int(x) for x in Xstrs]
 Ystrs = [1, 2, 3, 4, 5]
 Y = [int(x) for x in Ystrs]
 
-Z = [(x,y) for x in X for y in Y if x < y] #insert a list comprehension expression
+Z = [(x,y) for x in X for y in Y if x < y] # insert a list comprehension expression
 
 for pair in Z: print(pair[0], pair[1])

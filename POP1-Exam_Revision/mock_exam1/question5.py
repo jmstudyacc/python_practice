@@ -21,7 +21,7 @@ def balance(init_sum, int_rate, tfl, tax_rate, M):
         s = s + interest - tax
 
     # once the loop ends the new value of s is returned
-    return s
+    return round(s, 2)
 
 
 print(balance(10000, 1, 20000, 1, 2))  # must be approximately 10201
