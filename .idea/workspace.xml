@@ -4,19 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b3bf01f-60d1-4e78-bcf3-5a7ab0b3eef7" name="Default Changelist" comment="hyperskill exercise worth saving">
-      <change afterPath="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam2/question1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam2/question2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam2/question3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam2/question4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam2/question5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam2/question6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam2/question7.py" afterDir="false" />
+    <list default="true" id="3b3bf01f-60d1-4e78-bcf3-5a7ab0b3eef7" name="Default Changelist" comment="mock exam completed">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/james.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/python_practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/class_events_pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/class_pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/deconstructing_python_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/events_producer_consumer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/fixing_race_conditions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/lock_producer_consumer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/managing_group_of_threads.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/queue_based_producer_consumer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/race_conditions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/starting_a_thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/starting_naive_multiple_threads.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/thread_objects.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam1/question5.py" beforeDir="false" afterPath="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam1/question5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam1/question6.py" beforeDir="false" afterPath="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam1/question6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POP1-List_Comprehension/combined_pairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/POP1-List_Comprehension/combined_pairs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POP1-List_Comprehension/combined_squares.py" beforeDir="false" afterPath="$PROJECT_DIR$/POP1-List_Comprehension/combined_squares.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +72,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -78,8 +88,8 @@
       <recent name="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 1/Challenges" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.question5 (1)">
-    <configuration name="question5 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.queue_based_producer_consumer">
+    <configuration name="class_pipeline" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,12 +97,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Threads" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam1/question5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Threads/class_pipeline.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="question5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="events_producer_consumer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,12 +119,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Threads" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam2/question5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Threads/events_producer_consumer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="question6 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="fixing_race_conditions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,12 +141,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Threads" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam1/question6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Threads/fixing_race_conditions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="question6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lock_producer_consumer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,12 +163,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Threads" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam2/question6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Threads/lock_producer_consumer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,7 +177,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="question7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="queue_based_producer_consumer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,12 +185,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Threads" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam2/question7.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Threads/queue_based_producer_consumer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.question5 (1)" />
-        <item itemvalue="Python.question6 (1)" />
-        <item itemvalue="Python.question7" />
-        <item itemvalue="Python.question6" />
-        <item itemvalue="Python.question5" />
+        <item itemvalue="Python.queue_based_producer_consumer" />
+        <item itemvalue="Python.events_producer_consumer" />
+        <item itemvalue="Python.class_pipeline" />
+        <item itemvalue="Python.lock_producer_consumer" />
+        <item itemvalue="Python.fixing_race_conditions" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +223,8 @@
       <workItem from="1619255414585" duration="57000" />
       <workItem from="1619385299652" duration="54000" />
       <workItem from="1619387931760" duration="1341000" />
-      <workItem from="1619454115689" duration="7608000" />
+      <workItem from="1619454115689" duration="8356000" />
+      <workItem from="1619539911976" duration="17598000" />
     </task>
     <task id="LOCAL-00001" summary="class based exercises">
       <created>1618950485177</created>
@@ -278,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619388072991</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="mock exam completed">
+      <created>1619461892133</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1619461892133</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +326,8 @@
     <MESSAGE value="finalising session 2 challenges" />
     <MESSAGE value="finishing session 3 challenges" />
     <MESSAGE value="hyperskill exercise worth saving" />
-    <option name="LAST_COMMIT_MESSAGE" value="hyperskill exercise worth saving" />
+    <MESSAGE value="mock exam completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="mock exam completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -323,8 +342,16 @@
           <line>17</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Threads/lock_producer_consumer.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="YamllintSettings">
+    <option name="binPath" value="yamllint" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_practice$recursion_or_iteration.coverage" NAME="recursion_or_iteration Coverage Results" MODIFIED="1607288427525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Recursion" />
@@ -360,6 +387,7 @@
     <SUITE FILE_PATH="coverage/python_practice$first_last_occurrence.coverage" NAME="first_last_occurrence Coverage Results" MODIFIED="1618780823169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 3" />
     <SUITE FILE_PATH="coverage/python_practice$number_of_words.coverage" NAME="number_of_words Coverage Results" MODIFIED="1618780514053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 3" />
     <SUITE FILE_PATH="coverage/python_practice$repl_counter.coverage" NAME="repl_counter Coverage Results" MODIFIED="1607533236596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Classes" />
+    <SUITE FILE_PATH="coverage/python_practice$lock_producer_consumer.coverage" NAME="lock_producer_consumer Coverage Results" MODIFIED="1619557827439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Threads" />
     <SUITE FILE_PATH="coverage/python_practice$question1.coverage" NAME="question1 Coverage Results" MODIFIED="1619454813015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam2" />
     <SUITE FILE_PATH="coverage/python_practice$higher_order_function.coverage" NAME="higher_order_function Coverage Results" MODIFIED="1619021041119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 10" />
     <SUITE FILE_PATH="coverage/python_practice$question2.coverage" NAME="question2 Coverage Results" MODIFIED="1619455860402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam2" />
@@ -367,6 +395,7 @@
     <SUITE FILE_PATH="coverage/python_practice$repl_circular_class.coverage" NAME="repl_circular_class Coverage Results" MODIFIED="1607554522739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Classes" />
     <SUITE FILE_PATH="coverage/python_practice$list_comprehensions.coverage" NAME="list_comprehensions Coverage Results" MODIFIED="1618351951770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hackerrank" />
     <SUITE FILE_PATH="coverage/python_practice$chocolate_bar.coverage" NAME="chocolate_bar Coverage Results" MODIFIED="1619124696398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_1/challenges" />
+    <SUITE FILE_PATH="coverage/python_practice$deconstructing_python_code.coverage" NAME="deconstructing_python_code Coverage Results" MODIFIED="1619548454081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Threads" />
     <SUITE FILE_PATH="coverage/python_practice$repl_counter_draft.coverage" NAME="repl_counter_draft Coverage Results" MODIFIED="1607532460777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Classes" />
     <SUITE FILE_PATH="coverage/python_practice$equal_numbers.coverage" NAME="equal_numbers Coverage Results" MODIFIED="1619027025220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 11/Challenges" />
     <SUITE FILE_PATH="coverage/python_practice$extension.coverage" NAME="extension Coverage Results" MODIFIED="1609711414935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../POP1-CW/DCS-POP1-2020-21-jmstudyacc" />
@@ -382,6 +411,7 @@
     <SUITE FILE_PATH="coverage/python_practice$unique_elements.coverage" NAME="unique_elements Coverage Results" MODIFIED="1619192479283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_3/challenges" />
     <SUITE FILE_PATH="coverage/python_practice$queens.coverage" NAME="queens Coverage Results" MODIFIED="1619197171174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_3/challenges" />
     <SUITE FILE_PATH="coverage/python_practice$pytest_for_test_battleships_test_are_unsunk_ships_left1.coverage" NAME="pytest for test_battleships.test_are_unsunk_ships_left1 Coverage Results" MODIFIED="1609637494199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../POP1-CW/DCS-POP1-2020-21-jmstudyacc" />
+    <SUITE FILE_PATH="coverage/python_practice$starting_naive_multiple_threads.coverage" NAME="starting_naive_multiple_threads Coverage Results" MODIFIED="1619545289605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Threads" />
     <SUITE FILE_PATH="coverage/python_practice$matrix_scaling.coverage" NAME="matrix_scaling Coverage Results" MODIFIED="1618846034904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 4" />
     <SUITE FILE_PATH="coverage/python_practice$balanced_parantheses.coverage" NAME="balanced_parantheses Coverage Results" MODIFIED="1608502631093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Data_Structures" />
     <SUITE FILE_PATH="coverage/python_practice$scratch_2.coverage" NAME="scratch_2 Coverage Results" MODIFIED="1608503311177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
@@ -393,9 +423,11 @@
     <SUITE FILE_PATH="coverage/python_practice$max_num_consecutive_eq_elements.coverage" NAME="max_num_consecutive_eq_elements Coverage Results" MODIFIED="1619167531812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_2/challenges" />
     <SUITE FILE_PATH="coverage/python_practice$pytest_for_test_battleships_test_hit1.coverage" NAME="pytest for test_battleships.test_hit1 Coverage Results" MODIFIED="1609637490305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../POP1-CW/DCS-POP1-2020-21-jmstudyacc" />
     <SUITE FILE_PATH="coverage/python_practice$linked_list.coverage" NAME="linked_list Coverage Results" MODIFIED="1619026767336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 11" />
+    <SUITE FILE_PATH="coverage/python_practice$fixing_race_conditions.coverage" NAME="fixing_race_conditions Coverage Results" MODIFIED="1619551541980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Threads" />
     <SUITE FILE_PATH="coverage/python_practice$pytest_for_test_battleships_test_is_sunk1.coverage" NAME="pytest for test_battleships.test_is_sunk1 Coverage Results" MODIFIED="1609637310562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../POP1-CW/DCS-POP1-2020-21-jmstudyacc" />
     <SUITE FILE_PATH="coverage/python_practice$clock_face.coverage" NAME="clock_face Coverage Results" MODIFIED="1619123534260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_1/challenges" />
     <SUITE FILE_PATH="coverage/python_practice$number_of_zeroes.coverage" NAME="number_of_zeroes Coverage Results" MODIFIED="1619125914182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_2/challenges" />
+    <SUITE FILE_PATH="coverage/python_practice$class_pipeline.coverage" NAME="class_pipeline Coverage Results" MODIFIED="1619559179384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Threads" />
     <SUITE FILE_PATH="coverage/python_practice$greater_than_neighbour.coverage" NAME="greater_than_neighbour Coverage Results" MODIFIED="1619192199210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_3/challenges" />
     <SUITE FILE_PATH="coverage/python_practice$pytest_for_test_battleships_test_internal_coord_vertical_whitespace_check1.coverage" NAME="pytest for test_battleships.test_internal_coord_vertical_whitespace_check1 Coverage Results" MODIFIED="1609685022178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../POP1-CW/DCS-POP1-2020-21-jmstudyacc" />
     <SUITE FILE_PATH="coverage/python_practice$runner_up.coverage" NAME="runner_up Coverage Results" MODIFIED="1618395162023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hackerrank" />
@@ -407,9 +439,11 @@
     <SUITE FILE_PATH="coverage/python_practice$list_combined_pairs.coverage" NAME="list_combined_pairs Coverage Results" MODIFIED="1619016352776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 10" />
     <SUITE FILE_PATH="coverage/python_practice$stringify_high_order.coverage" NAME="stringify_high_order Coverage Results" MODIFIED="1607797120216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-List_Comprehension" />
     <SUITE FILE_PATH="coverage/python_practice$swap_adj.coverage" NAME="swap_adj Coverage Results" MODIFIED="1618774412507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 3" />
+    <SUITE FILE_PATH="coverage/python_practice$race_conditions.coverage" NAME="race_conditions Coverage Results" MODIFIED="1619547828162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Threads" />
     <SUITE FILE_PATH="coverage/python_practice$pytest_for_test_battleships_test_is_open_sea1.coverage" NAME="pytest for test_battleships.test_is_open_sea1 Coverage Results" MODIFIED="1609637238818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../POP1-CW/DCS-POP1-2020-21-jmstudyacc" />
     <SUITE FILE_PATH="coverage/python_practice$battleships_tuples.coverage" NAME="battleships_tuples Coverage Results" MODIFIED="1609611353565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-CW_Alpha" />
     <SUITE FILE_PATH="coverage/python_practice$question5.coverage" NAME="question5 Coverage Results" MODIFIED="1619461552016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam2" />
+    <SUITE FILE_PATH="coverage/python_practice$starting_a_thread.coverage" NAME="starting_a_thread Coverage Results" MODIFIED="1619544090427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Threads" />
     <SUITE FILE_PATH="coverage/python_practice$scratch_3.coverage" NAME="scratch_3 Coverage Results" MODIFIED="1609360135973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-CW_Alpha" />
     <SUITE FILE_PATH="coverage/python_practice$battleships_extension.coverage" NAME="battleships_extension Coverage Results" MODIFIED="1609710891711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../POP1-CW/DCS-POP1-2020-21-jmstudyacc" />
     <SUITE FILE_PATH="coverage/python_practice$pytest_for_test_battleships_test_end_coord_horizontal_whitespace_check1.coverage" NAME="pytest for test_battleships.test_end_coord_horizontal_whitespace_check1 Coverage Results" MODIFIED="1609681810460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../POP1-CW/DCS-POP1-2020-21-jmstudyacc" />
@@ -421,12 +455,15 @@
     <SUITE FILE_PATH="coverage/python_practice$combined_squares.coverage" NAME="combined_squares Coverage Results" MODIFIED="1607781625021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-List_Comprehension" />
     <SUITE FILE_PATH="coverage/python_practice$fractional_part.coverage" NAME="fractional_part Coverage Results" MODIFIED="1619027300095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 11/Challenges" />
     <SUITE FILE_PATH="coverage/python_practice$question5__1_.coverage" NAME="question5 (1) Coverage Results" MODIFIED="1619461740244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam1" />
+    <SUITE FILE_PATH="coverage/python_practice$queue_producer_consumer.coverage" NAME="queue_producer_consumer Coverage Results" MODIFIED="1619559879186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Threads" />
+    <SUITE FILE_PATH="coverage/python_practice$queue_based_producer_consumer.coverage" NAME="queue_based_producer_consumer Coverage Results" MODIFIED="1619560291368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Threads" />
     <SUITE FILE_PATH="coverage/python_practice$num_distinct_numbers.coverage" NAME="num_distinct_numbers Coverage Results" MODIFIED="1618781040246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 3" />
     <SUITE FILE_PATH="coverage/python_practice$board_and_ships.coverage" NAME="board_and_ships Coverage Results" MODIFIED="1609281020391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-CW_Alpha" />
     <SUITE FILE_PATH="coverage/python_practice$fibonacci_numbers.coverage" NAME="fibonacci_numbers Coverage Results" MODIFIED="1619171318535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_2" />
     <SUITE FILE_PATH="coverage/python_practice$king_move.coverage" NAME="king_move Coverage Results" MODIFIED="1619123286992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_1/challenges" />
     <SUITE FILE_PATH="coverage/python_practice$for_loop_speech.coverage" NAME="for_loop_speech Coverage Results" MODIFIED="1618403098896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hyperskill" />
     <SUITE FILE_PATH="coverage/python_practice$number_series_2.coverage" NAME="number_series_2 Coverage Results" MODIFIED="1619125724892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_2/challenges" />
+    <SUITE FILE_PATH="coverage/python_practice$managing_group_of_threads.coverage" NAME="managing_group_of_threads Coverage Results" MODIFIED="1619546881723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Threads" />
     <SUITE FILE_PATH="coverage/python_practice$two_lists.coverage" NAME="two_lists Coverage Results" MODIFIED="1618780038108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 3" />
     <SUITE FILE_PATH="coverage/python_practice$bank_account_class.coverage" NAME="bank_account_class Coverage Results" MODIFIED="1619014722435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 9" />
     <SUITE FILE_PATH="coverage/python_practice$circular_sector_class.coverage" NAME="circular_sector_class Coverage Results" MODIFIED="1619013192884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 8" />
