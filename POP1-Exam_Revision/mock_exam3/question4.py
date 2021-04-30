@@ -6,7 +6,7 @@ def f(L):
         return False
 
 
-print(f([-5, -5]))
+print(f([-5, 5]))
 
 
 # X is not a list, it is a generator and cannot have length - rewrite:

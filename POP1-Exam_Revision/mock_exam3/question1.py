@@ -4,6 +4,6 @@ def fun(n):
     else: return fun( n // 10) + n % 10
 
 
-print(fun(191))
+print(fun(19))
 
 # this function returns a value that is the sum of the digits in the number
