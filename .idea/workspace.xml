@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b3bf01f-60d1-4e78-bcf3-5a7ab0b3eef7" name="Default Changelist" comment="adding hackerrank tasks">
-      <change afterPath="$PROJECT_DIR$/hackerrank/find_substring.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/lists.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/string_join.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/string_mutate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/string_validator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/tuple_map.py" afterDir="false" />
+    <list default="true" id="3b3bf01f-60d1-4e78-bcf3-5a7ab0b3eef7" name="Default Changelist" comment="adding hackerrank tasks - strings">
+      <change afterPath="$PROJECT_DIR$/data_structures/class_hash_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackerrank/any_examples.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackerrank/string_mutate.py" beforeDir="false" afterPath="$PROJECT_DIR$/hackerrank/string_mutate.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +72,51 @@
       <recent name="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 1/Challenges" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.string_validator">
+  <component name="RunManager" selected="Python.class_hash_table">
+    <configuration name="any_examples" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hackerrank" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hackerrank/any_examples.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="class_hash_table" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_structures/class_hash_table.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="find_substring" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,28 +131,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hackerrank/find_substring.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hackerrank" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hackerrank/lists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,35 +205,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tuple_map" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hackerrank" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hackerrank/tuple_map.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.class_hash_table" />
+        <item itemvalue="Python.any_examples" />
         <item itemvalue="Python.string_validator" />
         <item itemvalue="Python.find_substring" />
         <item itemvalue="Python.string_mutate" />
-        <item itemvalue="Python.tuple_map" />
-        <item itemvalue="Python.lists" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +235,8 @@
       <workItem from="1619712525201" duration="1055000" />
       <workItem from="1619713636147" duration="3013000" />
       <workItem from="1619805394312" duration="4539000" />
-      <workItem from="1619870080122" duration="6873000" />
+      <workItem from="1619870080122" duration="11405000" />
+      <workItem from="1619988511816" duration="7062000" />
     </task>
     <task id="LOCAL-00001" summary="class based exercises">
       <created>1618950485177</created>
@@ -331,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619810644344</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="adding hackerrank tasks - strings">
+      <created>1619880474978</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1619880474978</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +370,8 @@
     <MESSAGE value="multi-threading on Python" />
     <MESSAGE value="adding mock exam work" />
     <MESSAGE value="adding hackerrank tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding hackerrank tasks" />
+    <MESSAGE value="adding hackerrank tasks - strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding hackerrank tasks - strings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -399,6 +405,11 @@
           <url>file://$PROJECT_DIR$/hackerrank/string_validator.py</url>
           <line>6</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hackerrank/any_examples.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -469,6 +480,7 @@
     <SUITE FILE_PATH="coverage/python_practice$starting_naive_multiple_threads.coverage" NAME="starting_naive_multiple_threads Coverage Results" MODIFIED="1619545289605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Threads" />
     <SUITE FILE_PATH="coverage/python_practice$lists.coverage" NAME="lists Coverage Results" MODIFIED="1619872413007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hackerrank" />
     <SUITE FILE_PATH="coverage/python_practice$matrix_scaling.coverage" NAME="matrix_scaling Coverage Results" MODIFIED="1618846034904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 4" />
+    <SUITE FILE_PATH="coverage/python_practice$class_hash_table.coverage" NAME="class_hash_table Coverage Results" MODIFIED="1619995856107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures" />
     <SUITE FILE_PATH="coverage/python_practice$balanced_parantheses.coverage" NAME="balanced_parantheses Coverage Results" MODIFIED="1608502631093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Data_Structures" />
     <SUITE FILE_PATH="coverage/python_practice$string_validator.coverage" NAME="string_validator Coverage Results" MODIFIED="1619880451186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hackerrank" />
     <SUITE FILE_PATH="coverage/python_practice$scratch_2.coverage" NAME="scratch_2 Coverage Results" MODIFIED="1608503311177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
@@ -508,6 +520,7 @@
     <SUITE FILE_PATH="coverage/python_practice$pytest_for_test_battleships_test_end_coord_horizontal_whitespace_check1.coverage" NAME="pytest for test_battleships.test_end_coord_horizontal_whitespace_check1 Coverage Results" MODIFIED="1609681810460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../POP1-CW/DCS-POP1-2020-21-jmstudyacc" />
     <SUITE FILE_PATH="coverage/python_practice$matrix_max_index.coverage" NAME="matrix_max_index Coverage Results" MODIFIED="1618841990022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 4" />
     <SUITE FILE_PATH="coverage/python_practice$polyglots.coverage" NAME="polyglots Coverage Results" MODIFIED="1619201598026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_3/challenges" />
+    <SUITE FILE_PATH="coverage/python_practice$any_examples.coverage" NAME="any_examples Coverage Results" MODIFIED="1619882020300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hackerrank" />
     <SUITE FILE_PATH="coverage/python_practice$first_num_decimal_point.coverage" NAME="first_num_decimal_point Coverage Results" MODIFIED="1619027498780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 1/Challenges" />
     <SUITE FILE_PATH="coverage/python_practice$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1607381960984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/python_practice$ladder.coverage" NAME="ladder Coverage Results" MODIFIED="1619128604605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_2/challenges" />
