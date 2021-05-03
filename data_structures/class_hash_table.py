@@ -180,7 +180,7 @@ class Node:
     def __init__(self, key, value):
         self.key = key
         self.value = value
-        # node is a member of a linkedlist so needs to have the next value set - it is None at init though
+        # node is a member of a LinkedList so needs to have the next value set - it is None at init though
         self.next = None
 
 
@@ -195,3 +195,4 @@ ht1.insert("Staff", names)
 
 staff_records = ht1.find_key('Staff')
 print(staff_records)
+
