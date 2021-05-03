@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b3bf01f-60d1-4e78-bcf3-5a7ab0b3eef7" name="Default Changelist" comment="adding a quick sort algorithm">
+      <change afterPath="$PROJECT_DIR$/data_structures/quick_slower_sort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_structures/quick_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/quick_sort.py" afterDir="false" />
     </list>
@@ -159,6 +160,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="quick_slower_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_structures/quick_slower_sort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="quick_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,35 +204,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="string_validator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hackerrank" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hackerrank/string_validator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.quick_sort" />
+        <item itemvalue="Python.quick_slower_sort" />
         <item itemvalue="Python.find_substring" />
         <item itemvalue="Python.class_hash_table" />
         <item itemvalue="Python.any_examples" />
-        <item itemvalue="Python.string_validator" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +236,7 @@
       <workItem from="1619805394312" duration="4539000" />
       <workItem from="1619870080122" duration="11405000" />
       <workItem from="1619988511816" duration="8113000" />
-      <workItem from="1620035129098" duration="11160000" />
+      <workItem from="1620035129098" duration="17553000" />
     </task>
     <task id="LOCAL-00001" summary="class based exercises">
       <created>1618950485177</created>
@@ -349,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620049951477</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="adding a quick sort algorithm">
+      <created>1620051860396</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1620051860396</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,6 +495,7 @@
     <SUITE FILE_PATH="coverage/python_practice$num_of_occurrences.coverage" NAME="num_of_occurrences Coverage Results" MODIFIED="1618833187365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 3" />
     <SUITE FILE_PATH="coverage/python_practice$slices.coverage" NAME="slices Coverage Results" MODIFIED="1619191639636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_3/challenges" />
     <SUITE FILE_PATH="coverage/python_practice$recursive_sum.coverage" NAME="recursive_sum Coverage Results" MODIFIED="1618848844995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 5" />
+    <SUITE FILE_PATH="coverage/python_practice$quicker_sort.coverage" NAME="quicker_sort Coverage Results" MODIFIED="1620067801458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures" />
     <SUITE FILE_PATH="coverage/python_practice$sum_n_numbers.coverage" NAME="sum_n_numbers Coverage Results" MODIFIED="1619124903710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_2/challenges" />
     <SUITE FILE_PATH="coverage/python_practice$question4.coverage" NAME="question4 Coverage Results" MODIFIED="1619619345166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/mock_exam1" />
     <SUITE FILE_PATH="coverage/python_practice$unique_elements.coverage" NAME="unique_elements Coverage Results" MODIFIED="1619192479283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_3/challenges" />
@@ -507,7 +516,7 @@
     <SUITE FILE_PATH="coverage/python_practice$max_num_consecutive_eq_elements.coverage" NAME="max_num_consecutive_eq_elements Coverage Results" MODIFIED="1619167531812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_2/challenges" />
     <SUITE FILE_PATH="coverage/python_practice$pytest_for_test_battleships_test_hit1.coverage" NAME="pytest for test_battleships.test_hit1 Coverage Results" MODIFIED="1609637490305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../POP1-CW/DCS-POP1-2020-21-jmstudyacc" />
     <SUITE FILE_PATH="coverage/python_practice$linked_list.coverage" NAME="linked_list Coverage Results" MODIFIED="1619026767336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/Session 11" />
-    <SUITE FILE_PATH="coverage/python_practice$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1620051741277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures" />
+    <SUITE FILE_PATH="coverage/python_practice$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1620068092040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures" />
     <SUITE FILE_PATH="coverage/python_practice$fixing_race_conditions.coverage" NAME="fixing_race_conditions Coverage Results" MODIFIED="1619551541980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Threads" />
     <SUITE FILE_PATH="coverage/python_practice$pytest_for_test_battleships_test_is_sunk1.coverage" NAME="pytest for test_battleships.test_is_sunk1 Coverage Results" MODIFIED="1609637310562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../POP1-CW/DCS-POP1-2020-21-jmstudyacc" />
     <SUITE FILE_PATH="coverage/python_practice$clock_face.coverage" NAME="clock_face Coverage Results" MODIFIED="1619123534260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POP1-Exam_Revision/repl_problems/session_1/challenges" />

@@ -4,9 +4,11 @@
 import random
 import time
 
+
 def quicksort(arr, left, right):
     # print(f"Current left value: {left}")
     # print(f"Current right value: {right}")
+
     # base case to exit the recursive lookup
     if left >= right:
         return
@@ -16,9 +18,7 @@ def quicksort(arr, left, right):
 
     # partition array around this pivot point - value of left is updated with each recursion
     index = partition(arr, left, right, pivot)
-    # print(f"Current index value: {index}")
 
-    # print(f"Current list during Quicksort: {arr}\n")
     # recursive quicksort call on the array with the lower (left) and upper (mid -1)
     quicksort(arr, left, index - 1)
 
@@ -50,12 +50,13 @@ def partition(arr, left, right, pivot):
 
 if __name__ == "__main__":
 
-    arr2 = [32, 73, 71, 78, 93, 30, 0, 53, 1, 74]
-    arr1 = []
+    arr1 = [32, 73, 71, 78, 93, 30, 0, 53, 1, 74]
+    arr2 = []
     for i in range(2500000):
-        arr1.append(random.randrange(0, 5000000))
+        arr2.append(random.randrange(0, 50000000))
+
     start_time = time.time()
     # print(f"The list before Quicksort is applied: {arr1}")
-    quicksort(arr1, 0, len(arr1) - 1)
-    # print(f"The list after Quicksort is applied: {arr1}")
+    quicksort(arr2, 0, len(arr2) - 1)
+    # print(f"The list after Quicksort is applied: {arr2}")
     print(f"Program took {time.time() - start_time} seconds. ")
