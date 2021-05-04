@@ -24,3 +24,11 @@ class My_integer:
         if self._x == other:
             return True
         return False
+    
+"""
+    def __eq__(self, o):
+        return self._x == o._x
+
+    def __ne__(self, o):
+        return self._x != o._x
+"""        
