@@ -26,7 +26,7 @@ def test_swap_multiple_max():
 
 
 def test_swap_multi_max_min():
-    assert swap_min_max(1, 1, 2, 3, 4, 5, 5) == [5, 1, 2, 3, 4, 5, 1]
+    assert swap_min_max(1, 1, 2, 3, 4, 5, 5) == [1, 5, 2, 3, 4, 5, 1]
 
 
 def test_swap_zero_min_max():

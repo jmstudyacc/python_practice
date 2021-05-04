@@ -26,7 +26,8 @@ class Child(Person):
         self.p2 = p2
 
     def get_info(self):
-        return f"{self.f_name} {self.l_name} {self.p1.get_info()} {self.p2.get_info()}"
+        return f"{super().get_info()} {self.p1.get_info()} {self.p2.get_info()}"
+        # return f"{self.f_name} {self.l_name} {self.p1.get_info()} {self.p2.get_info()}"
 
     def get_parents(self):
         return self.p1, self.p2

@@ -16,9 +16,19 @@ class My_integer:
         # method returns the My_integer object representing
         # the sum of the value represented by this object and
         # the value represented by My_integer object o
-        return self._x + o._x
+        return My_integer(self._x + o._x)
+    
+        # return self._x + o._x
 
     def __eq__(self, other):
         if self._x == other:
             return True
         return False
+    
+"""
+    def __eq__(self, o):
+        return self._x == o._x
+
+    def __ne__(self, o):
+        return self._x != o._x
+"""        
