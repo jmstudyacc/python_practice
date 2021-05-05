@@ -7,12 +7,12 @@ class Person:
         return f"{self.f_name} {self.l_name}"
 
     def get_name(self):
-        return self.f_name, self.l_name
+        return (self.f_name, self.l_name)
 
 
 class Adult(Person):
     def __init__(self, f_name, l_name, phone):
-        Person.__init__(self, f_name, l_name)
+        super().__init__(f_name, l_name)
         self.phone = phone
 
     def get_phone(self):
@@ -21,7 +21,7 @@ class Adult(Person):
 
 class Child(Person):
     def __init__(self, f_name, l_name, p1, p2):
-        Person.__init__(self, f_name, l_name)
+        super().__init__(f_name, l_name)
         self.p1 = p1
         self.p2 = p2
 
@@ -30,7 +30,7 @@ class Child(Person):
         # return f"{self.f_name} {self.l_name} {self.p1.get_info()} {self.p2.get_info()}"
 
     def get_parents(self):
-        return self.p1, self.p2
+        return (self.p1, self.p2)
 
 
 
