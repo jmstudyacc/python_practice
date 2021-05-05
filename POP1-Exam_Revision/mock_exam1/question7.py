@@ -12,7 +12,7 @@ class Person:
 
 class Adult(Person):
     def __init__(self, f_name, l_name, phone):
-        Person.__init__(self, f_name, l_name)
+        super().__init__(f_name, l_name)
         self.phone = phone
 
     def get_phone(self):
