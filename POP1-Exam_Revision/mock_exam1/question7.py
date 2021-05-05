@@ -30,7 +30,7 @@ class Child(Person):
         # return f"{self.f_name} {self.l_name} {self.p1.get_info()} {self.p2.get_info()}"
 
     def get_parents(self):
-        return self.p1, self.p2
+        return (self.p1, self.p2)
 
 
 
