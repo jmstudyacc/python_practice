@@ -21,7 +21,7 @@ class Adult(Person):
 
 class Child(Person):
     def __init__(self, f_name, l_name, p1, p2):
-        Person.__init__(self, f_name, l_name)
+        super().__init__(f_name, l_name)
         self.p1 = p1
         self.p2 = p2
 
