@@ -7,7 +7,7 @@ class Person:
         return f"{self.f_name} {self.l_name}"
 
     def get_name(self):
-        return self.f_name, self.l_name
+        return (self.f_name, self.l_name)
 
 
 class Adult(Person):
